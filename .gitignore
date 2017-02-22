@@ -1,0 +1,6 @@
+node_modules/
+temp/
+project/
+typings/
+www/js/*
+www/css/*

@@ -1,0 +1,83 @@
+@import 'grid-settings';
+@import 'grid-mixins';
+@import 'mixins';
+
+#main
+{	
+	/*@include outer-container;
+	position: relative;
+	display: block;
+	margin: auto;*/
+}
+
+
+
+.main-panel
+{
+	@media(min-height: 800px)
+	{
+		@include vertical-center();
+	}
+	width: 100%;
+}
+
+.button
+{
+   @include one-quarter;
+   text-align: center;
+}
+
+h1
+{
+	@media(min-width: 385px)
+	{
+		font-size: 40px;
+	}
+
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 10vw;
+}
+
+p
+{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+	
+}
+
+.outer-container
+{
+	@include outer-container;
+}
+
+.header
+{
+
+}
+
+.footer
+{
+	position: relative;
+	width: 100%;
+	/*@media(max-height: 350px)
+	{
+		position: relative
+	}*/
+
+	/*@media(min-height: 350px)
+	{
+		position: absolute;
+		bottom: 0px;
+	}
+
+	@media(min-height: 350px)
+	{
+		top: 375px;
+	}*/
+}
