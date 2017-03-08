@@ -1,17 +1,6 @@
 @import 'grid-settings';
 @import 'grid-mixins';
 @import 'mixins';
-
-#main
-{	
-	/*@include outer-container;
-	position: relative;
-	display: block;
-	margin: auto;*/
-}
-
-
-
 .main-panel
 {
 	@media(min-height: 800px)
@@ -25,30 +14,6 @@
 {
    @include one-quarter;
    text-align: center;
-}
-
-h1
-{
-	@media(min-width: 385px)
-	{
-		font-size: 40px;
-	}
-
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
-	font-size: 10vw;
-}
-
-p
-{
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-}
-
-body
-{
-	
 }
 
 .outer-container
