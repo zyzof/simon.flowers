@@ -42,6 +42,11 @@ export class App extends React.Component<AppProps, AppState> {
                         <img src='img/homebrew.png' />
                     </a>
                 </div>
+                <div id='homebrew-web' className='button'>
+                    <a href='homebrew'>
+                        <img src='img/homebrew-web.png' />
+                    </a>
+                </div>
                 <div id='contact' className='button'>
                     <a href='mailto:contact@simon.flowers' target='_blank'>
                         <img src='img/contact.png' />
